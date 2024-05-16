@@ -1,1 +1,18 @@
 Chapter 01 updated to check rebase
+
+The demmands that often used are 
++ git commit 
++ git add 
++ git checkout: convert branch
++ git checkout -b [newBranch]: convert and generate new branch
++ git reset: clear current commit
++ git revert [hash]: open VIM file to update
++ relative refs: 
+    * git checkout HEAD^: convert to before commit
+    * git checkout HEAD~[numberOfCommitsThatWantToConvert]: convert to the specific commit
++ git rebase [theNameOfBranchThatYouWantToMergeWithCurrentBranch]: merge all of commits with current branch
++ git cherry-pick [hash] [hash] [hash]: how to copy commits to current branch 
++ git branch -f [nameOfBranch] [hash]: force a commit belong to a branch
++ git merge: merge two branches together 
++ HEAD is symbolic name and it's so important when you operate with git command line
++ *(astertick = HEAD) => using checkout to change HEAD pointer. 
